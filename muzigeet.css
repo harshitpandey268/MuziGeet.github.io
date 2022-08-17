@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Ubuntu+Condensed&family=Varela+Round&display=swap');
+body{
+    background-color:rgb(66, 64, 61);
+}
+
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Ubuntu Condensed', sans-serif;
+
+
+}
+
+nav ul{
+    position:relative;
+    display: flex;
+    align-items: center;
+    list-style-type:none;
+    height: 90px;
+    background-color : rgb(8, 8, 8);
+    color:white;
+    cursor: pointer;
+
+}
+nav ul li{
+    padding:0 30px;
+}
+
+.brand img {
+    width: 90px;
+    height: 90px;
+    padding: 0 8px;
+
+}
+
+.brand{
+    display:flex;
+    align-items: center;
+    font-weight:bolder;
+    font-size:1.3rem;
+}
+.container{
+    min-height: 80vh;
+    background-color:  rgb(51, 40, 40);
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    display:flex;
+    margin: 30px auto;
+    width: 90%;
+    border-radius: 12px;
+    padding: 40px;
+    background-image: url('new release.jpg');
+    background-size: cover;
+
+}
+
+
+.bottom{
+    position: sticky;
+    height:140px;
+    width:100vw ;
+
+    
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    flex-direction: column;
+    
+
+
+}
+
+.icons{
+    margin-top: 10px;
+  
+}
+.icons i{
+    cursor: pointer;
+    padding : 20px;
+}
+
+#GeetprogressBar{
+    
+    cursor: pointer;
+
+    width: 80vw;
+
+}
+
+.GeetItemContainer{
+    margin-top: 60px;
+   
+}
+
+.second-container{
+   
+    
+    min-height: 80vh;
+    background-color:  rgb(12, 12, 12);
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: grid;
+    margin: 30px auto;
+    width: 90%;
+    border-radius: 20px;
+    padding: 40px;
+   
+    
+
+
+}
+
+.gallery {
+    position:sticky;
+    
+    margin-top: 100px;
+
+    display :grid;
+
+    grid-template-columns: repeat(4, 2fr);
+    grid-template-rows: repeat(3, 2fr);
+    grid-column-gap: 100px;
+    grid-row-gap: 100px;
+  }
+
+.gallery img{
+    background-size: cover;
+}
+  
+  
+  
+  
+  
+  
+ 
+
+.GeetItem{
+    height: 40px;
+    width: 600px;
+    display: flex;
+    background-color: white;
+    
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.GeetItem img{
+    width: 40px;
+    margin: 0 25px;
+    border-radius: 35px;
+}
+
+
+
+
+
+
+
+.timestamp{
+    margin: 0 25px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.GeetInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.GeetInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+@media only screen and (max-width: 1100px) {
+    body {
+      background-color: rgb(40, 38, 38);
+    }
+  }
